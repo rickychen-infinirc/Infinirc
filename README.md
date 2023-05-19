@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @RickyChen Computer Science Lab
 - 👀 I’m interested in AI and server setup.....
 - 🌱 I’m currently learning css and C++.
-- 官網：https://rcclab.com
+- 官網：https://rccslab.com
 
 
 <!---

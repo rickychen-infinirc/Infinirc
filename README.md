@@ -1,10 +1,6 @@
-- 👋 Hi, I’m @RickyChen Computer Science Lab
-- 👀 I’m interested in AI and server setup.....
-- 🌱 I’m currently learning css and C++.
-- 官網：https://rccslab.com
+- 👋 Hi, I’m @RickyChen
+- 👀 I am interested in artificial intelligence, server deployment, and cloud technologies.
+- 🌐 Official website: [Infinirc](https://infinirc.com)
+- 💬 ChatNLM: [Visit ChatNLM](https://chatnlm.infinirc.com)
+- 🤗 Hugging Face: [Infinirc on Hugging Face](https://huggingface.co/Infinirc)
 
-
-<!---
-RCTechStudio/RCTechStudio is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->

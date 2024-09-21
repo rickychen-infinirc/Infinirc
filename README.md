@@ -5,3 +5,4 @@
 - 🤗 Hugging Face: [Infinirc on Hugging Face](https://huggingface.co/Infinirc)
 
 
+![RickyChem GitHub stats](https://github-readme-stats.vercel.app/api?username=Infinirc&hide=contribs,prs)

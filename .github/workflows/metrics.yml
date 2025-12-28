@@ -28,11 +28,12 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
-          # org
-          plugin_orgs: yes
-          plugin_orgs_limit: 10
+          #org
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_repositories: yes
 
-          # 安全附加資訊
+          
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred

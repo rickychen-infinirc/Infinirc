@@ -22,8 +22,10 @@ jobs:
           user: rickychen-infinirc
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: large
+          config_display: medium
           config_timezone: Asia/Taipei
+          config_padding: 10
+          config_animations: false
 
 
           plugin_calendar: yes
@@ -33,13 +35,3 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_repositories: yes
-
-
-          plugin_followup: yes
-          plugin_followup_sections: pull_requests
-
-
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: starred
-          plugin_topics_sort: stars

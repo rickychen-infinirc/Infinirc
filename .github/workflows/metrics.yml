@@ -33,6 +33,9 @@ jobs:
           plugin_notable_from: organization
           plugin_notable_repositories: yes
 
+          plugin_followup: yes
+          plugin_followup_sections: pull_requests
+          plugin_followup_limit: 10
           
           plugin_topics: yes
           plugin_topics_limit: 15

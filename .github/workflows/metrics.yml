@@ -22,13 +22,17 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_display: large
-          config_timezone: Asia/Shanghai
+          config_timezone: Asia/Taipei
 
-          # 只保留最下面那條 calendar
+          # contributions calendar
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
-          # 安全、不會炸的附加資訊
+          # org
+          plugin_orgs: yes
+          plugin_orgs_limit: 10
+
+          # 安全附加資訊
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred

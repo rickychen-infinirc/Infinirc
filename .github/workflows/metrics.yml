@@ -18,25 +18,27 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
+          # 基本設定
           user: rickychen-infinirc
           template: classic
           base: header, activity, community, repositories, metadata
           config_display: large
           config_timezone: Asia/Taipei
 
-          # contributions calendar
+
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
-          #org
+
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_repositories: yes
 
+
           plugin_followup: yes
           plugin_followup_sections: pull_requests
-          plugin_followup_limit: 10
-          
+
+
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred

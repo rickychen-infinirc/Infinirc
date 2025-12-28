@@ -22,7 +22,7 @@ jobs:
           user: rickychen-infinirc
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: medium
+          config_display: large
           config_timezone: Asia/Taipei
           config_padding: 10
           config_animations: false

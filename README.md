@@ -4,7 +4,7 @@ Founder & CEO @ Infinirc LLC
 
 ### Projects & Links
 - 🌐 Infinirc: https://infinirc.com  
-- 💬 CodgenX (Local LLM Platform): https://codgenx.infinirc.com  
+- 💬 CodgenX (LLM Platform): https://codgenx.infinirc.com  
 - 🤗 Hugging Face: https://huggingface.co/Infinirc  
 
 ![Metrics](/github-metrics.svg)

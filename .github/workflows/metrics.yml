@@ -16,41 +16,19 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token (must include read:org + repo if private work is needed)
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Basic config
           user: rickychen-infinirc
           template: classic
-          base: header, activity, repositories, metadata
+          base: header, activity, community, repositories, metadata
           config_display: large
-          config_timezone: Asia/Taipei
+          config_timezone: Asia/Shanghai
 
-          # ─────────────────────────────
-          # Featured / worked-on projects
-          # ─────────────────────────────
-          plugin_repositories: yes
-          plugin_repositories_featured: rickychen-infinirc/CodgenX
-          plugin_repositories_order: pinned
+          # 只保留最下面那條 calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
 
-          # ─────────────────────────────
-          # Notable contributions (Org / others)
-          # ─────────────────────────────
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_repositories: yes
-
-          # ─────────────────────────────
-          # Engineering habits & activity
-          # ─────────────────────────────
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # ─────────────────────────────
-          # Topics you care about (lightweight, optional)
-          # ─────────────────────────────
+          # 安全、不會炸的附加資訊
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred

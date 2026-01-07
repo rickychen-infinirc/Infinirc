@@ -25,7 +25,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: rickychen-infinirc
+          user: ricky-chaoju
           template: classic
           base: header, activity, repositories
           config_display: large

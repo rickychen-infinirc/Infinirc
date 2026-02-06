@@ -1,6 +1,6 @@
 ## Hi, I’m Ricky Chen 👋
 
-Founder & CEO @ Infinirc LLC  
+Founder @ Infinirc LLC  
 
 ### Projects & Links
 - 🌐 Infinirc: https://infinirc.com  
